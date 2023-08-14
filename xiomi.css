@@ -1,0 +1,142 @@
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+    text-align: left;
+
+}
+.cardres {
+    text-align: center;
+}
+@media (min-width:450px) {
+    .a-btn{
+        display: none;
+    }
+    
+}
+
+
+/* mobile */
+@media (max-width:650px) {
+
+    .text-resmain{
+        font-size: 70%;
+    }
+    .text-res{
+        font-size: 75%;
+    }
+    
+    .imgres{
+
+       height:230px;
+       text-align: center;
+    }
+    
+    
+    
+}
+@media  (max-width:450px) {
+    .cardres{
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+    .b-btn{
+        display: none;
+    }
+    
+}
+/* desktop */
+@media (min-width:950px) {
+
+     .text-resmain{
+        font-size: 250%;
+        
+    }
+    .text-res{
+        font-size: 150%;
+        
+    }
+    .btnbuynow{
+        padding: 50px;
+    }
+}
+@media (min-width:1000px) {
+    
+  .text-1000px{
+    margin-top: 50px;
+  }
+  .divflex{
+    display: flex;
+  }
+  .cardres{
+    width: 100%;
+    margin: 1%;
+  }
+  .flex13{
+    display: flex;
+  }
+  .d3{
+    width: 250%;
+  }
+  
+    
+}
+@media (max-width:650px) {
+    
+    .text-1000px{
+        font-size: large;
+      
+    }
+
+    
+      
+  }
+ .textaboveimg{
+  position: relative;
+  text-align: center;
+  color: white;
+}.top-left {
+  position: absolute;
+  top: 58%;
+  left: 16%;
+
+}
+@media  (max-width:750px) {
+    .imgeee{
+        height: 250px;
+    }
+    
+}
+@media (max-width:1024px) and (min-width:769px) {
+   .bugdiv{
+display: none;
+    
+   } 
+}
+@media (max-width:1000px) {
+    .cardres{
+        margin: 0px;
+        width: 100%;
+    }
+}
+@media (min-width:430px) {
+    .d2{
+        display: flex;
+    }
+    .services{
+        margin: 2% 2% 2% 2% ;
+        width: 100%;
+        padding:2% 2% 2% 2%;
+    }
+    .dv112{
+        display: flex;
+        
+    }
+}
+@media (max-width:425px) {
+    .services{
+        margin: 2% 2% 2% 2% ;
+        padding:2% 2% 2% 2%;
+    }
+    
+}
